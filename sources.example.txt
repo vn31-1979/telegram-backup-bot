@@ -1,0 +1,12 @@
+# Network sources for backup files
+# Format: path|username|password|mount_point
+# 
+# Examples:
+# Windows network share with credentials
+\\\\172.16.5.127\\_Backup_8TB|backup_user|your_password_here|/mnt/backup_server
+
+# Windows network share without credentials
+\\\\server2\\backup_folder|||/mnt/server2_backup
+
+# Local Linux path
+/backup/local_files|||
