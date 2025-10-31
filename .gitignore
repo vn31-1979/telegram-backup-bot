@@ -1,0 +1,38 @@
+# Конфигурационные файлы с данными
+config.py
+
+# Session files
+*.session
+*.session-journal
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+telegram_uploader_venv/
+venv/
+env/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+
+# Upload history (optional)
+# upload_history.csv
